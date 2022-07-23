@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>2.0.0</version>
+    <title>$title$</title>
+    <authors>PatGet, gabrieldwight, saamerm</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/PatGet/XamarinPlayCoreUpdater</projectUrl>
+    <description>The Google PlayCore Library enables automatic Update of PlayStore Apps and Reviews.</description>
+    <releaseNotes>Now contains proguard settings</releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>Xamarin, Android, PlayStore, Core</tags>
+  </metadata>
+  <files>
+    <!-- Include everything in \build -->
+    <file src="build\**" target="build" />
+    <file src="proguard\**" target="proguard" />
+  </files>
+</package>
